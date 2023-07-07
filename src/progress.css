@@ -1,0 +1,32 @@
+.progress__container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.progress__track {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: inherit;
+  border-radius: inherit;
+}
+.progress__textbar {
+  position: absolute;
+  right: -4px;
+  bottom: 100%;
+  margin-bottom: 2px;
+  border-radius: 0.2rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.progress__label {
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  z-index: -10;
+  height: 6px;
+  width: 6px;
+  transform: translateX(-50%) rotate(45deg);
+  border-radius: 0.2rem;
+}
