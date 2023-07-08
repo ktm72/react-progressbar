@@ -17,8 +17,3 @@ describe('Change height', () => {
     render(<ProgressBar height={15} />);
   });
 });
-describe('Change height', () => {
-  it('Height should be number but given string', () => {
-    render(<ProgressBar height={'15'} />);
-  });
-});

@@ -2,4 +2,4 @@
 
 ## Installation
 
-`npm i react-progressbar`
+`npm i react-progressbar-typed`
